@@ -1,0 +1,2 @@
+server_url: "http://aws-syslog-roundrobin:9000/api/"
+server_api_token: "qgbv6fl2u3fjobh8ug4h8rn8slplb38pnqcbp30r5n1pdvdgsu4"
