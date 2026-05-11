@@ -183,6 +183,7 @@ RUN set -eux; \
 	\
 	pip --version
 
+RUN wget https://packages.graylog2.org/repo/packages/graylog-sidecar-repository_1-2_all.deb && dpkg -i graylog-sidecar-repository_1-2_all.deb
 RUN apt-get update && apt-get install -y supervisor graylog-sidecar filebeat
 
 # Add FileBeat config
